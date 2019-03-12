@@ -6,14 +6,14 @@ using System.Threading.Tasks;
 
 namespace trpoLab5
 {
-    class Program
+    class function
     {
-        static double Conv(float x)
+        public double Conv(float x)
         {
-            return x*2.54;
+            return x * 2.54;
         }
 
-        static bool check (int a)
+        static bool check(int a)
         {
             if (a % 2 == 0)
                 return true;
@@ -25,7 +25,7 @@ namespace trpoLab5
         {
             int max;
             max = array[0];
-            for (int i=1; i<array.Length; i++)
+            for (int i = 1; i < array.Length; i++)
             {
                 if (array[i] > max)
                     max = array[i];
@@ -37,10 +37,6 @@ namespace trpoLab5
         static int rem(int a, int b)
         {
             return a % b;
-        }
-        static void Main(string[] args)
-        {
-           
         }
     }
 }
